@@ -9,7 +9,7 @@ add_executable(TARVB
         "respostas/Q4.c"
         estruturas/TLista.c
         estruturas/TLista.h
-        respostas/resposta.h
+        respostas/questoes.h
         respostas/Q9.c
         estruturas/hash.c
         estruturas/hash.h

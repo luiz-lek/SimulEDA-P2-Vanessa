@@ -1,4 +1,4 @@
-#include "resposta.h"
+#include "questoes.h"
 #include <stdlib.h>
 
 // A resoluçao considera que o vetor da heap inicia em 1, como está nos slides.

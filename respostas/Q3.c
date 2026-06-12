@@ -2,7 +2,7 @@
 // Created by Eric on 11/06/2026.
 //
 
-#include "resposta.h"
+#include "questoes.h"
 #include <stdlib.h>
 
 int* inver_vet(int* vet, int tam) {

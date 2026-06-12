@@ -1,4 +1,4 @@
-#include "resposta.h"
+#include "questoes.h"
 
 int moda(int *vet, int tam_vet, int n) {
     int tam_hash = n+1;

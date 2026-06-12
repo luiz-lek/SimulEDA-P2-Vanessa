@@ -1,4 +1,4 @@
-#include "resposta.h"
+#include "questoes.h"
 #include "../estruturas/hash.h"
 #include <stdio.h>
 

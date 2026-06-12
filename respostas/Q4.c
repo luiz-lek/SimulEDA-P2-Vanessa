@@ -1,4 +1,4 @@
-#include "resposta.h"
+#include "questoes.h"
 #include <stdlib.h>
 
 TLista* aux(TNoB *a, TLista *l) {

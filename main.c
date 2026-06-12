@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "respostas/resposta.h"
+#include "respostas/questoes.h"
 
 int main() {
 
