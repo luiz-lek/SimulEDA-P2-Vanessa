@@ -16,4 +16,5 @@ add_executable(TARVB
         gabarito/Q6.c
         gabarito/Q7.c
         main.c
-        gabarito/Q5.c)
+        gabarito/Q5.c
+        gabarito/Q3.c)
