@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.2)
+cmake_minimum_required(VERSION 4.0.2)
 project(TARVB C)
 
 set(CMAKE_C_STANDARD 11)
@@ -17,4 +17,6 @@ add_executable(TARVB
         gabarito/Q7.c
         main.c
         gabarito/Q5.c
+        gabarito/Q3.c
+        gabarito/Q3.c
         gabarito/Q3.c)
