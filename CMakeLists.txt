@@ -15,4 +15,5 @@ add_executable(TARVB
         estruturas/hash.h
         gabarito/Q6.c
         gabarito/Q7.c
-        main.c)
+        main.c
+        gabarito/Q5.c)

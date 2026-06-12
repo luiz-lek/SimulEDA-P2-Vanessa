@@ -6,8 +6,6 @@
 #define TARVB_STRUCTS_E_FUNCOES_H
 
 #include "../estruturas/TLista.h"
-#include "../estruturas/hash.h"
-#include "../TARVB.h"
 
 typedef struct NoB {
     int m;
@@ -26,6 +24,9 @@ typedef struct NoBM {
 
 // Questão 4
 TLista* arvore_pra_lista(TNoB *a);
+
+// Questão 5
+char* caminho(TNoBM* a, int x);
 
 // Questão 6
 int moda(int *vet, int tam_vet, int n);

@@ -1,4 +1,5 @@
 #include "resposta.h"
+#include "../estruturas/hash.h"
 #include <stdio.h>
 
 void soma_k(char *arqA, char *arqB, char *saida, int k) {
