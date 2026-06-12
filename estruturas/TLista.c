@@ -2,7 +2,7 @@
 // Created by luizao on 11/06/2026.
 //
 
-#include "../gabarito/TLista.h"
+#include "../estruturas//TLista.h"
 #include <stdlib.h>
 
 TLista* insere_fim(TLista *l, int valor) {

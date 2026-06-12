@@ -2,7 +2,8 @@
 // Created by Eric on 11/06/2026.
 //
 
-#include "Respostas.h"
+#include "resposta.h"
+#include <stdlib.h>
 
 int* inver_vet(int* vet, int tam) {
     if (!vet) return NULL;

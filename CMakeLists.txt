@@ -6,17 +6,17 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(TARVB
-        "gabarito/Q4.c"
+        "respostas/Q4.c"
         estruturas/TLista.c
         estruturas/TLista.h
-        gabarito/resposta.h
-        gabarito/Q9.c
+        respostas/resposta.h
+        respostas/Q9.c
         estruturas/hash.c
         estruturas/hash.h
-        gabarito/Q6.c
-        gabarito/Q7.c
+        respostas/Q6.c
+        respostas/Q7.c
         main.c
-        gabarito/Q5.c
-        gabarito/Q3.c
-        gabarito/Q3.c
-        gabarito/Q3.c)
+        respostas/Q5.c
+        respostas/Q3.c
+        respostas/Q3.c
+        respostas/Q3.c)

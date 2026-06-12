@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "gabarito/resposta.h"
+#include "respostas/resposta.h"
 
 int main() {
 
