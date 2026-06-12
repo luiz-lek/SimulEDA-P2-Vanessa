@@ -31,6 +31,7 @@ char* caminho(TNoBM* a, int x);
 // Questão 6
 int moda(int *vet, int tam_vet, int n);
 
+
 // Questão 7
 void soma_k(char *arqA, char *arqB, char *saida, int k);
 
