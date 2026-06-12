@@ -6,7 +6,9 @@
 #define TARVB_STRUCTS_E_FUNCOES_H
 
 #include "../estruturas/TLista.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 typedef struct NoB {
     int m;
     struct NoB *pai;
