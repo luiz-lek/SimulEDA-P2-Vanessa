@@ -14,5 +14,5 @@ int moda(int *vet, int tam_vet, int n) {
         if (hash[i] > hash[moda]) moda = i;
     }
 
-    return moda;
+    return hash[moda];
 }
