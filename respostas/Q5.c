@@ -5,6 +5,12 @@ int altura(TNoBM* a) {
     else return 1 + altura(a->p[0]);
 }
 
+void atualiza_path(char* path, int x) {
+    char temp[256];
+    snprintf(temp, sizeof(temp), "%d%s", x, path);
+    strcpy(path, temp);
+}
+
 void caminho_aux(TNoBM* a, int x, char* path, int* encontrado) {
     if(!a) return;
 
@@ -17,9 +23,7 @@ void caminho_aux(TNoBM* a, int x, char* path, int* encontrado) {
         if(x < a->s[i]) {
             caminho_aux(a->p[i], x, path, encontrado);
             if(*encontrado) {
-                char temp[256];
-                snprintf(temp, sizeof(temp), "%d%s", i, path);
-                strcpy(path, temp);
+                atualiza_path(path, i);
             }
             return;
         }
@@ -27,9 +31,7 @@ void caminho_aux(TNoBM* a, int x, char* path, int* encontrado) {
 
     caminho_aux(a->p[a->m], x, path, encontrado);
     if(*encontrado) {
-        char temp[256];
-        snprintf(temp, sizeof(temp), "%d%s", a->m, path);
-        strcpy(path, temp);
+        atualiza_path(path, a->m);
     }
 }
 
