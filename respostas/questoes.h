@@ -24,6 +24,11 @@ typedef struct NoBM {
     struct NoBM *prox;
 } TNoBM;
 
+// Questão 3
+int* inver_vet(int* vet, int tam);
+TNoB** inver_ps(TNoB** a, int tam);
+TNoB* inverte(TNoB *a);
+
 // Questão 4
 TLista* arvore_pra_lista(TNoB *a);
 
