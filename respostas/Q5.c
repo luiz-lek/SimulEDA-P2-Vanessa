@@ -2,4 +2,6 @@
 
 char* caminho(TNoBM* a, int x) {
 
+
+
 }
