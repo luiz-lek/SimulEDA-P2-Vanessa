@@ -15,7 +15,7 @@ void caminho_aux(TNoBM* a, int x, char* path, int* encontrado) {
     if(!a) return;
 
     for(int i = 0; i < a->m; i++) {
-        if(x == a->s[i]) {
+        if((x == a->s[i]) && a->eh_folha) {
             *encontrado = 1;
             path[0] = '\0';
             return;

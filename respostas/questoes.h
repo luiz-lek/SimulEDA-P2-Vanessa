@@ -20,6 +20,7 @@ typedef struct NoBM {
     int m;
     struct NoBM *pai;
     int *s;
+    int eh_folha;
     struct NoBM **p;
     struct NoBM *prox;
 } TNoBM;
